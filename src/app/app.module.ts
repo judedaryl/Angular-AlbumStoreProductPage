@@ -13,12 +13,11 @@ import { ProductDescriptionComponent } from './product-description/product-descr
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProductService
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
